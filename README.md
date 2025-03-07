@@ -19,3 +19,6 @@ Como se menciona, se plantea un divisor de tensión sencillo entre dos resistenc
 ![ACOPLE](./ACOPLE.png)
 
 **ADC 0808**
+Este lo vamos a energizar con 5 voltios, fijando así también nuestra referencia, para poder iniciar la conversión y finalizarla. Se pone en corto START con EOC (End Of Conversion), energizamos también OE y ALE, para habilitar la entrega de datos digitales y almacenar la dirección respectivamente. De los pines 23-25 salen los selectores A-B-C, del menos al más significativo. Este selector va a los 3.3, las salidas análogas irán a los 5 V y las digitales a la FPGA y los 3 módulos de 7 segmentos.
+
+![ADC](./ADC.png)
