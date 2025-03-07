@@ -6,7 +6,7 @@ Por otra parte, es importante resaltar que el apartado digital se trabajó y com
 
 ## Desafío
 
-Este laboratorio contiene, como se dijo anteriormente, un componente físico importante. Se debe partir sabiendo que a Colombia llega una tensión directa a la pared de 110 V, pero por variaciones y protección se escogió un transformador 20:1; así, si tomábamos dicho voltaje como 120 V, pasaría a 6 V.
+Este laboratorio contiene, como se dijo anteriormente, un componente físico importante. Se debe partir sabiendo que a Colombia llega una tensión directa al tomacorriente de 110 V, pero por variaciones y protección se escogió un transformador 20:1; así, si tomábamos dicho voltaje como 120 V, pasaría a 6 V.
 
 Una vez que se ha reducido este voltaje, se busca pasar por un puente de diodos o rectificador la señal. Quedando DC se conecta a un par de resistencias, para de este modo tener un divisor de voltaje y regularlo con ayuda del Zener, de ahí se conectaba al módulo ADC0808, para que por cada Data Bus salieran 1 bit, siendo en total 8, esto en un rango de 0 a 255, para que al lograr medir la tensión y pasando a código binario a BCD indique los voltios.
 
@@ -25,3 +25,11 @@ Como se menciona, se plantea un divisor de tensión sencillo entre dos resistenc
 Este lo vamos a energizar con 5 voltios, fijando así también nuestra referencia, para poder iniciar la conversión y finalizarla. Se pone en corto START con EOC (End Of Conversion), energizamos también OE y ALE, para habilitar la entrega de datos digitales y almacenar la dirección respectivamente. De los pines 23-25 salen los selectores A-B-C, del menos al más significativo. Este selector va a los 3.3, las salidas análogas irán a los 5 V y las digitales a la FPGA y los 3 módulos de 7 segmentos.
 
 ![ADC](./ADC.png)
+
+
+## Código
+
+Cabe aclarar que el resultado no fue el esperado y no se obtuvo lo que se deseaba, sin embargo, aqui esta lo trabajado.
+
+**Divisor Frecuencia**
+
