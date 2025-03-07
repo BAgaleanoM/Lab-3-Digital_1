@@ -215,7 +215,10 @@ Como se ha dejado ver en este github, hubo dificultades notorias a la hora de ha
 Con lo comentado anteriormente, teniendo en cuenta de que se tenía todo separado y ordenado, fue un inesperado cuando nos dimos cuenta de que la FPGA dejó de funcionar y se había "quemado", hasta el momento no tenemos conclusiones muy claras de que pudo haber ocurrido, pero se apunta a un corto, mal funcionamiento del transformador o una alimentación errada, que incluso con las dos placas de prueba no logramos mitigar el error. Se adjuntan fotos de lo trabajado.
 
 
-![ACOPLE](./ACOPLE.png)
+![DECODE.jpeg](./DECODE.jpeg)
+
+
+![ACOMPLE_MONTAJE.jpeg](./ACOMPLE_MONTAJE.jpeg)
 
 
 
