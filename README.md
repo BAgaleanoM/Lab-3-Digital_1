@@ -16,4 +16,4 @@ El voltaje, teóricamente como se dijo, se reducirá a 6 V RMS, quedan en unos
 **Divisor de Tensión**
 Como se menciona, se plantea un divisor de tensión sencillo entre dos resistencias. Si se usa un trimmer de 100 K ohms en la resistencia dos, que debe ser la de caída, donde la tensión debe ser de 3,3 V, se debe situar en  46,610 K Ohms, para conectarse al conversor ADC, dejando este circuito.
 
-![a](./a.png)
+![ACOPLE](./ACOPLE.png)
