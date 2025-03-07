@@ -210,8 +210,12 @@ set_io bcd_output[11] 32
 
 ## Dificultades
 
+Como se ha dejado ver en este github, hubo dificultades notorias a la hora de hacer la práctica al completo, de esto cabe resaltar 2 cosas, primero que se intentó implementar un decodificador 74LS48, ya que este al conectar el módulo 7 segmentos conectando cada segmento (a-g) a su homónimo en el integrado y de ahí sale 4 pines, correspondientes a los 4 bits (ABCD), siendo de ese modo el A el menos significativo y el D él más. Todo esto, junto con el circuito descrito más arriba, incluso se instalaron en dos protoboards distintos, pero no acabó de funcionar.
+
+Con lo comentado anteriormente, teniendo en cuenta de que se tenía todo separado y ordenado, fue un inesperado cuando nos dimos cuenta de que la FPGA dejó de funcionar y se había "quemado", hasta el momento no tenemos conclusiones muy claras de que pudo haber ocurrido, pero se apunta a un corto, mal funcionamiento del transformador o una alimentación errada, que incluso con las dos placas de prueba no logramos mitigar el error. Se adjuntan fotos de lo trabajado.
 
 
+![ACOPLE](./ACOPLE.png)
 
 
 
